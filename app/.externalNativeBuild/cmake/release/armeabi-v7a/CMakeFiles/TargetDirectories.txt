@@ -1,0 +1,3 @@
+/Users/betas/Documents/workspace/facebook_live_client_android/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/betas/Documents/workspace/facebook_live_client_android/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/betas/Documents/workspace/facebook_live_client_android/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/native-lib.dir
