@@ -1,3 +1,3 @@
-/Users/betas/Documents/workspace/facebook_live_client_android/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/edit_cache.dir
-/Users/betas/Documents/workspace/facebook_live_client_android/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/rebuild_cache.dir
-/Users/betas/Documents/workspace/facebook_live_client_android/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/native-lib.dir
+/Users/kimdonghyuk/Documents/Other/facebook_live_client_android/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/edit_cache.dir
+/Users/kimdonghyuk/Documents/Other/facebook_live_client_android/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/rebuild_cache.dir
+/Users/kimdonghyuk/Documents/Other/facebook_live_client_android/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/native-lib.dir

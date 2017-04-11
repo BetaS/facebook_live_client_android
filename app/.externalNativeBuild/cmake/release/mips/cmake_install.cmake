@@ -1,4 +1,4 @@
-# Install script for directory: /Users/betas/Documents/workspace/facebook_live_client_android/app
+# Install script for directory: /Users/kimdonghyuk/Documents/Other/facebook_live_client_android/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/betas/Documents/workspace/facebook_live_client_android/app/.externalNativeBuild/cmake/release/mips/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/kimdonghyuk/Documents/Other/facebook_live_client_android/app/.externalNativeBuild/cmake/release/mips/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
