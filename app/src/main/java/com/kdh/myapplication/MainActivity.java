@@ -110,14 +110,14 @@ public class MainActivity extends Activity implements CameraBridgeViewBase.CvCam
     @Override
     public Mat onCameraFrame(CameraBridgeViewBase.CvCameraViewFrame inputFrame) {
 
-        matInput = inputFrame.rgba();
+        //matInput = inputFrame.rgba();
 
         /*if (matResult != null) matResult.release();
         matResult = new Mat(matInput.rows(), matInput.cols(), matInput.type());
 
         ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());*/
 
-        return matInput;
+        return inputFrame.rgba();
     }
 
 
