@@ -115,8 +115,8 @@ public class MainActivity extends Activity implements CameraBridgeViewBase.CvCam
         /*if (matResult != null) matResult.release();
         matResult = new Mat(matInput.rows(), matInput.cols(), matInput.type());
 
-        ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());*/
-
+        ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());;*/
+        sadsadas
         return inputFrame.rgba();
     }
 
