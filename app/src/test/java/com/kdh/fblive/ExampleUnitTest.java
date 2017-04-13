@@ -1,4 +1,4 @@
-package com.kdh.myapplication;
+package com.kdh.fblive;
 
 import org.junit.Test;
 

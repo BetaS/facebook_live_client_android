@@ -7,7 +7,7 @@ using namespace cv;
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_kdh_myapplication_MainActivity_ConvertRGBtoGray(JNIEnv *env, jobject instance,
+Java_com_kdh_fblive_MainActivity_ConvertRGBtoGray(JNIEnv *env, jobject instance,
                                                          jlong matAddrInput, jlong matAddrResult) {
 
     // TODO

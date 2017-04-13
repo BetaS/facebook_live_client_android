@@ -1,9 +1,8 @@
-package com.kdh.myapplication;
+package com.kdh.fblive;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.os.Build;
@@ -11,7 +10,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.SurfaceView;
 import android.view.WindowManager;
-import android.widget.TextView;
 
 import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.CameraBridgeViewBase;
@@ -23,7 +21,7 @@ public class MainActivity extends Activity implements CameraBridgeViewBase.CvCam
 
     private static final String TAG = "opencv";
     private CameraBridgeViewBase mOpenCvCameraView;
-    private Mat matInput;
+
     private Mat matResult;
 
     private native void ConvertRGBtoGray(long matAddrInput, long matAddrResult);
@@ -110,13 +108,15 @@ public class MainActivity extends Activity implements CameraBridgeViewBase.CvCam
     @Override
     public Mat onCameraFrame(CameraBridgeViewBase.CvCameraViewFrame inputFrame) {
 
-        //matInput = inputFrame.rgba();
+        Mat matInput = inputFrame.rgba();
 
-        /*if (matResult != null) matResult.release();
+        if(matResult != null) matResult.release();
         matResult = new Mat(matInput.rows(), matInput.cols(), matInput.type());
 
-        ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());;*/
-        return inputFrame.rgba();
+        ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());
+
+        //return inputFrame.rgba();
+        return matResult;
     }
 
 

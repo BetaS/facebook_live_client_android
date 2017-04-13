@@ -1,4 +1,4 @@
-package com.kdh.myapplication;
+package com.kdh.fblive;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
